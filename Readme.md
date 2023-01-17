@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ольга Самсонова](https://up.htmlacademy.ru/htmlcss/36/user/2262693).
-* Наставник: [Константин Антоно](https://htmlacademy.ru/profile/rawle51).
+* Наставник: [Константин Антонов](https://htmlacademy.ru/profile/rawle51).
 
 ---
 
