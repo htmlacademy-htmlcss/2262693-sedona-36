@@ -126,6 +126,70 @@
           <button class="button_blue" type="submit">Применить</button>
           <button class="button_plain" type="reset">Сбросить</button>
         </form>
+        <h2>Найдено гостиниц: 38</h2>
+        <select class="select_ontrol" aria-label="Сортировка">
+          <option value="cheap">Сначала дешёвое</option>
+          <option value="expensive">Сначала дорогое</option>
+          <option value="popular">Сначала популярное</option>
+        </select>
+        <a class="button_icon button_icon_current_frame">
+          <span class="visually-hidden">Показать карточки</span>
+        </a>
+        <a class="button_icon" href="#">
+          <span class="visually-hidden">Показать превью</span>
+        </a>
+        <a class="button_icon" href="#">
+          <span class="visually-hidden">Показать список</span>
+        </a>
+        <ul class="place_list">
+          <li class="place_card">
+            <a class="place_card_link" href="#">
+              <img class="place_card_image" src="#" alt="Место">
+              <h3 class="place_card_title">Amara Resort & Spa</h3>
+            </a>
+            <p class="place_name_and_proce">
+              <span class="place_name">Гостиница</span>
+              <span class="place_price">От 4000 ₽</span>
+            </p>
+            <p class="place_options">
+              <a class="button_brown place_details" href="#">Подробнее</a>
+              <button class="button_blue place_details" type="button">В избранное</button>
+            </p>
+            <p class="place_rate"><img class="four_stars" src="#" alt="4 звезды">
+              <span class="rate_level">Рейтинг: 8.5</span>
+            </p>
+         </li>
+        </ul>
+        <ul class="pagination">
+          <li class="pagination_item">
+            <b>
+            <a class="pagination_link pagination_current">1</a>
+            </b>
+          </li>
+          <li class="pagination_item">
+            <b>
+            <a class="pagination_link button_blue " href="#">2</a>
+            </b>
+          </li>
+          <li class="pagination_item">
+            <b>
+            <a class="pagination_link button_blue " href="#">3</a>
+            </b>
+          </li>
+          <li class="pagination_item">
+            <b>
+            <a class="pagination_link button_blue " href="#">4</a>
+            </b>
+          </li>
+          <li>
+            <span>...</span>
+          </li>
+          <li class="pagination_item">
+            <b>
+            <a class="pagination_link button_blue " href="#">10</a>
+            </b>
+          </li>
+        </ul>
       </section>
 
     </main>
